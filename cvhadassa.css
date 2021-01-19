@@ -134,11 +134,9 @@ article h3{
 /*Textes et listes à puces dans la partie competences*/
 .text_competences div{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 article ul{
-    list-style-type: none;
-    padding-left: 0px;
     font-weight: 400;
     margin-right: 30px;
 }
